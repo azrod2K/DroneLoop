@@ -75,20 +75,165 @@
     </LinearLayout>
 
     <com.parrot.drone.groundsdk.stream.GsdkStreamView
-            android:id="@+id/stream_view"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            app:layout_constraintTop_toBottomOf="@id/info"
-            app:layout_constraintBottom_toTopOf="@id/takeOffLandBt"
-            tools:layout_editor_absoluteY="38dp">
-    </com.parrot.drone.groundsdk.stream.GsdkStreamView>
+        android:id="@+id/stream_view"
+        android:layout_width=""
+        android:layout_height="351dp"
+        app:layout_constraintBottom_toTopOf="@id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info"
+        app:layout_constraintVertical_bias="0.0"></com.parrot.drone.groundsdk.stream.GsdkStreamView>
 
     <Button
         android:id="@+id/takeOffLandBt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#1E74DD"
         android:enabled="false"
         android:text="take off"
+        android:textColor="#050505"
         app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/onBack"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:text="↓"
+        android:textSize="30"
+        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stream_view"
+        app:layout_constraintVertical_bias="0.682" />
+
+
+
+    <Button
+        android:id="@+id/turnRight"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="132dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:text="→"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stream_view"
+        app:layout_constraintVertical_bias="0.914" />
+
+    <Button
+        android:id="@+id/inFront"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="136dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:text="↑"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stream_view"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/onRight"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="132dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:text="→"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stream_view"
+        app:layout_constraintVertical_bias="0.914" />
+
+    <Button
+        android:id="@+id/onDown"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:text="↓"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stream_view"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <Button
+        android:id="@+id/onLeft"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:lineSpacingExtra="12sp"
+        android:text="←"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stream_view"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Button
+        android:id="@+id/onUp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="136dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:text="↑"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stream_view"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <Button
+        android:id="@+id/turnLeft"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:lineSpacingExtra="12sp"
+        android:text="←"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stream_view"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Button
+        android:id="@+id/paramettre"
+        android:layout_width="98dp"
+        android:layout_height="37dp"
+        android:text="Paramettre"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stream_view"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
