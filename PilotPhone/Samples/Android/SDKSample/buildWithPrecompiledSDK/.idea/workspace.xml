@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a40e125e-b49d-4986-8381-26bd4c3bc2f3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1zLqCe61GHNHV0QStkDE85eC9OI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../groundsdk-android-samples-master/HelloDrone" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Default Config" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle --refresh-dependencies" />
+      <command value="gradle --build-file" />
+      <command value="gradle --dry-run" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="/home/azrod2k/Documents/GitHub/PilotPhone/Samples/Android/SDKSample/buildWithPrecompiledSDK" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--refresh-dependencies" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle./home/azrod2k/Documents/GitHub/PilotPhone/Samples/Android/SDKSample/buildWithPrecompiledSDK" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a40e125e-b49d-4986-8381-26bd4c3bc2f3" name="Default Changelist" comment="" />
+      <created>1633937589592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633937589592</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" width="2560" height="1404" key="#PSD" timestamp="1634542225670">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state x="0" y="0" width="2560" height="1404" key="#PSD/0.0.2560.1404@0.0.2560.1404" timestamp="1634542225670" />
+    <state x="738" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633940248273">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state x="738" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1404@0.0.2560.1404" timestamp="1633940248273" />
+    <state x="1088" y="450" key="AndroidProcessChooserDialog" timestamp="1634541892768">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state x="1088" y="450" key="AndroidProcessChooserDialog/0.0.2560.1404@0.0.2560.1404" timestamp="1634541892768" />
+    <state x="1068" y="460" key="FileChooserDialogImpl" timestamp="1634548774902">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state x="1068" y="460" key="FileChooserDialogImpl/0.0.2560.1404@0.0.2560.1404" timestamp="1634548774902" />
+    <state width="2514" height="394" key="GridCell.Tab.0.bottom" timestamp="1634548776219">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state width="2514" height="394" key="GridCell.Tab.0.bottom/0.0.2560.1404@0.0.2560.1404" timestamp="1634548776219" />
+    <state width="2514" height="394" key="GridCell.Tab.0.center" timestamp="1634548776219">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state width="2514" height="394" key="GridCell.Tab.0.center/0.0.2560.1404@0.0.2560.1404" timestamp="1634548776219" />
+    <state width="2514" height="394" key="GridCell.Tab.0.left" timestamp="1634548776218">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state width="2514" height="394" key="GridCell.Tab.0.left/0.0.2560.1404@0.0.2560.1404" timestamp="1634548776218" />
+    <state width="2514" height="394" key="GridCell.Tab.0.right" timestamp="1634548776219">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state width="2514" height="394" key="GridCell.Tab.0.right/0.0.2560.1404@0.0.2560.1404" timestamp="1634548776219" />
+    <state width="2514" height="394" key="GridCell.Tab.1.bottom" timestamp="1634548776219">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state width="2514" height="394" key="GridCell.Tab.1.bottom/0.0.2560.1404@0.0.2560.1404" timestamp="1634548776219" />
+    <state width="2514" height="394" key="GridCell.Tab.1.center" timestamp="1634548776219">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state width="2514" height="394" key="GridCell.Tab.1.center/0.0.2560.1404@0.0.2560.1404" timestamp="1634548776219" />
+    <state width="2514" height="394" key="GridCell.Tab.1.left" timestamp="1634548776219">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state width="2514" height="394" key="GridCell.Tab.1.left/0.0.2560.1404@0.0.2560.1404" timestamp="1634548776219" />
+    <state width="2514" height="394" key="GridCell.Tab.1.right" timestamp="1634548776219">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state width="2514" height="394" key="GridCell.Tab.1.right/0.0.2560.1404@0.0.2560.1404" timestamp="1634548776219" />
+    <state x="851" y="386" key="RollbackChangesDialog" timestamp="1633944114848">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state x="851" y="386" key="RollbackChangesDialog/0.0.2560.1404@0.0.2560.1404" timestamp="1633944114848" />
+    <state x="1419" y="222" key="SettingsEditor" timestamp="1634539951065">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state x="1419" y="222" key="SettingsEditor/0.0.2560.1404@0.0.2560.1404" timestamp="1634539951065" />
+    <state x="1524" y="335" width="671" height="522" key="find.popup" timestamp="1634538924150">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state x="1524" y="335" width="671" height="522" key="find.popup/0.0.2560.1404@0.0.2560.1404" timestamp="1634538924150" />
+    <state x="1709" y="251" width="672" height="677" key="run.anything.popup" timestamp="1634542267940">
+      <screen x="0" y="0" width="2560" height="1404" />
+    </state>
+    <state x="1709" y="251" width="672" height="677" key="run.anything.popup/0.0.2560.1404@0.0.2560.1404" timestamp="1634542267940" />
+  </component>
+</project>
