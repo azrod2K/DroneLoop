@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
     <LinearLayout
-            android:id="@+id/info"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-                android:layout_width="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelDroneControl"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_weight="1"
+                android:text="Drone" />
 
             <TextView
-                    android:id="@+id/labelDroneControl"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Drone"/>
+                android:id="@+id/droneStateTxt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="state"
+                android:textAlignment="center" />
 
             <TextView
-                    android:id="@+id/droneStateTxt"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:text="state"
-                    android:textAlignment="center"/>
-
-            <TextView
-                    android:id="@+id/droneBatteryTxt"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text=""
-                    android:textAlignment="textEnd"/>
+                android:id="@+id/droneBatteryTxt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textAlignment="textEnd" />
         </LinearLayout>
 
         <LinearLayout
-                android:layout_width="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelRemoteControl"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_weight="1"
+                android:text="Remote" />
 
             <TextView
-                    android:id="@+id/labelRemoteControl"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Remote"/>
+                android:id="@+id/rcStateTxt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="state"
+                android:textAlignment="center" />
 
             <TextView
-                    android:id="@+id/rcStateTxt"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:text="state"
-                    android:textAlignment="center"/>
-
-            <TextView
-                    android:id="@+id/rcBatteryTxt"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text=""
-                    android:textAlignment="textEnd"/>
+                android:id="@+id/rcBatteryTxt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=""
+                android:textAlignment="textEnd" />
         </LinearLayout>
     </LinearLayout>
 
@@ -95,54 +95,63 @@
         android:textColor="#050505"
         app:layout_constraintBottom_toBottomOf="parent" />
 
+
     <Button
         android:id="@+id/onBack"
         android:layout_width="60dp"
         android:layout_height="62dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="613dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="81dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
         android:text="↓"
         android:textSize="30"
-        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stream_view"
-        app:layout_constraintVertical_bias="0.682" />
-
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/turnRight"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="132dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="181dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
         android:text="→"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintHorizontal_bias="0.012"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stream_view"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/inFront"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="238dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
         android:text="↑"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stream_view"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/onRight"
@@ -211,17 +220,21 @@
         android:id="@+id/turnLeft"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="115dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
         android:lineSpacingExtra="12sp"
         android:text="←"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stream_view"
-        app:layout_constraintVertical_bias="0.549" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/paramettre"
