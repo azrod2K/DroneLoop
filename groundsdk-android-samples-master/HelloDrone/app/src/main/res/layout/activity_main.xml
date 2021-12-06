@@ -78,22 +78,28 @@
         android:id="@+id/stream_view"
         android:layout_width=""
         android:layout_height="351dp"
-        app:layout_constraintBottom_toTopOf="@id/takeOffLandBt"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="438dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/info"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"></com.parrot.drone.groundsdk.stream.GsdkStreamView>
 
     <Button
         android:id="@+id/takeOffLandBt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="779dp"
         android:background="#1E74DD"
         android:enabled="false"
         android:text="take off"
         android:textColor="#050505"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
@@ -102,18 +108,16 @@
         android:layout_height="62dp"
         android:layout_marginStart="75dp"
         android:layout_marginTop="613dp"
-        android:layout_marginEnd="204dp"
-        android:layout_marginBottom="81dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="152dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
         android:text="↓"
         android:textSize="30"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/turnRight"
@@ -121,7 +125,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="123dp"
         android:layout_marginTop="570dp"
-        android:layout_marginEnd="136dp"
+        android:layout_marginEnd="214dp"
         android:layout_marginBottom="181dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
@@ -129,7 +133,6 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.012"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -140,7 +143,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="75dp"
         android:layout_marginTop="527dp"
-        android:layout_marginEnd="204dp"
+        android:layout_marginEnd="262dp"
         android:layout_marginBottom="238dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
@@ -148,7 +151,6 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -157,73 +159,44 @@
         android:id="@+id/onRight"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="132dp"
+        android:layout_marginStart="321dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="197dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
         android:text="→"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stream_view"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/onDown"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginStart="273dp"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="153dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
         android:text="↓"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.807"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stream_view"
-        app:layout_constraintVertical_bias="0.682" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/onLeft"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:alpha="34"
-        android:backgroundTint="#00FFFCFC"
-        android:lineSpacingExtra="12sp"
-        android:text="←"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stream_view"
-        app:layout_constraintVertical_bias="0.549" />
-
-    <Button
-        android:id="@+id/onUp"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="136dp"
-        android:alpha="34"
-        android:backgroundTint="#00FFFCFC"
-        android:text="↑"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.807"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stream_view"
-        app:layout_constraintVertical_bias="0.005" />
-
-    <Button
-        android:id="@+id/turnLeft"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="27dp"
+        android:layout_marginStart="225dp"
         android:layout_marginTop="570dp"
-        android:layout_marginEnd="285dp"
-        android:layout_marginBottom="115dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="197dp"
         android:alpha="34"
         android:backgroundTint="#00FFFCFC"
         android:lineSpacingExtra="12sp"
@@ -231,22 +204,59 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/onUp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="273dp"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="240dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:text="↑"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/turnLeft"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="197dp"
+        android:alpha="34"
+        android:backgroundTint="#00FFFCFC"
+        android:lineSpacingExtra="12sp"
+        android:text="←"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/paramettre"
         android:layout_width="98dp"
         android:layout_height="37dp"
+        android:layout_marginStart="299dp"
+        android:layout_marginTop="742dp"
+        android:layout_marginBottom="48dp"
         android:text="Paramettre"
         android:textSize="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/takeOffLandBt"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/stream_view"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
